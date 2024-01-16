@@ -26,7 +26,7 @@ SERVICE wikibase:label
 {bd:serviceParam wikibase:language "en"}
 }
 
-# compter le nombre de Van gogh dans chaque collection/lieux de conservation et les afficher par ordre décroissant
+#compter le nombre de Van gogh dans chaque collection/lieux de conservation et les afficher par ordre décroissant
 #Ici n'affiche pas les ?location et ?locationLabel associé à chaque ?count 
 SELECT ?location ?locationLabel ?count WHERE {
   {
