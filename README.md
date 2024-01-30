@@ -11,6 +11,7 @@ Lien d'accès au jeu de données: https://data.culture.gouv.fr/explore/dataset/b
 ## Tisser un jeu de données sur mesure: le traitement de la Base Joconde 
 La réutilisation de la base Joconde pour étudier les collections vestimentaires a nécessité plusieurs étapes de préparation, de nettoyage et de retraitement des données afin de les rendre potentiellement exploitables pour réaliser des visualisations graphiques pertinentes. <br>
 Cependant, la structuration du jeu de données ainsi que la nature même de la notice d'oeuvre, document source de Joconde ont constitué des obstacles importants pour notre objectif de datavisualisation. Le jeu de données est tout d'abord conséquent, que ce soit en termes de lignes ou de colonnes. La version utilisée pour ce projet (extraction du 26/01/2024) regroupe en effet 676 599 notices, pour 74 colonnes descriptives. Un premier travail de nettoyage des colonnes, afin de ne conserver que celles pertinentes pour notre projet, a été nécessaire. <br>
+
 A partir de ce fichier retraité, il a été choisi de réaliser plusieurs partitions des données afin d'explorer différents axes d'étude des collections vestimentaires des musées de France et parvenir à l'objectif final de datavisualisation. 
 
 ## Partition chronologique: les collections de vêtements et d'accessoires du XIXe siècle 
