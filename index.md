@@ -18,16 +18,35 @@ De façon connexe, le jeu de données se démarque également par une grande dis
 ### La constitution d'un corpus des collections de vêtements et d'accessoires par partition du corpus initial sur Open Refine
 Un première partition du corpus a donc été réalisé, afin d'isoler les notices d'oeuvres décrivant des vêtements et des accessoires vestimentaires.
 Le choix retenu a été de s'appuyer sur la colonne "Domaine", en raison de la présence d'une nomenclature partagée par le milieu muséal français sur les noms de domaines des oeuvres. Le mot-clé "Costume" a alors permis de restreindre les notices au sujet de notre projet: les collections vestimentaires. <br>
+
 Ensuite, à partir de ce fichier source, il a été choisi de réaliser plusieurs types de partition afin d''explorer différents axes d'étude des collections vestimentaires des musées de France et de parvenir à l'objectif final de datavisualisation. 
 
 ## Partition chronologique: les collections de vêtements et d'accessoires du XIXe siècle 
 Un premier axe de visualisation a été de se focaliser sur les objets vestimentaires datés du XIXe siècle, afin de cartographier des sources pour l'histoire du vêtement à cette période. 
+Afin de réaliser cette partition chronologique, un traitement important des valeurs de datation saisies dans le jeu de données a été nécessaire, face à la grande hétérogénéité des notations de dates. La représentativité chronologique de ce corpus vis-à-vis des données initiales est donc à questionner. 
 
 <iframe width="100%" height="300px" frameborder="0" allowfullscreen allow="geolocation" src="//umap.openstreetmap.fr/fr/map/carte-des-collections-des-vetements-et-accessoires_1015858?scaleControl=true&miniMap=false&scrollWheelZoom=true&zoomControl=true&editMode=disabled&moreControl=false&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=none&captionBar=false&captionMenus=true"></iframe><p><a href="//umap.openstreetmap.fr/fr/map/carte-des-collections-des-vetements-et-accessoires_1015858?scaleControl=true&miniMap=false&scrollWheelZoom=true&zoomControl=true&editMode=disabled&moreControl=false&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=none&captionBar=false&captionMenus=true">Voir en plein écran</a></p>
-
 _Carte des collections des vêtements et accessoires du XIXe siècle conservées en France_
 
-## Partition géographique: focus sur les musées parisiens 
+A côté des lieux de conservation des objets, leur datation est également cruciale dans un objectif de recherche historique sur le XIXe siècle. C'est pourquoi nous avons tenté d'étudier la répartition chronologique des dates de création tout au long du siècle. 
+
+<iframe title="Répartition chronologique des oeuvres du corpus &quot;XIXe siècle&quot; par date de création estimée" aria-label="Nuage de points" id="datawrapper-chart-Thide" src="https://datawrapper.dwcdn.net/Thide/2/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="720" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data["datawrapper-height"][t]+"px";e[r].style.height=i}}}))}();
+</script>
+Il est nécessaire de rappeler ici que la base Joconde comporte plusieurs colonnes relatives à la datation de l'oeuvre, dont la saisie varie en fonction de plusieurs facteurs: type d'objet, pratique de saisies des musées, notation de la date en période temporelle. Le traitement important des dates rend possible les valeurs extrêmes hors du XIXe siècle visibles sur le graphique. 
+
+
+## Partition géographique: focus sur les collections vestimentaires des musées parisiens 
+Suite à ce premier aperçu général de la répartition sur l'ensemble du territoire français hexagonal des collections vestimentaires, il a été choisi de spécialiser l'étude à l'échelle des musées de Paris. 
+D'une part, Paris abrite deux institutions dotées des plus grandes collections de mode et de textile du monde, avec le Musée des Arts Décoratifs et le Palais Galliera. De plus, à côté de deux géants, il serait intéressant d'étudier si d'autres institutions muséales parisiennes abritent également des objets vestimentaires. 
+
+
+
+Ici, nous avons choisi de visualiser la proportion d'objets vestimentaires par type d'usage. 
+
+<iframe title="Répartition par type d'objet des costumes et d'accessoires du costume conservés dans les musées parisiens " aria-label="Tracé de points" id="datawrapper-chart-CB5gC" src="https://datawrapper.dwcdn.net/CB5gC/2/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="386" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data["datawrapper-height"][t]+"px";e[r].style.height=i}}}))}();
+</script>
+
+
 
 
 
