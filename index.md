@@ -19,18 +19,20 @@ Comme indiqué dans le sprint qualité, le jeu de données se caractérise par u
 
 ### La constitution d'un corpus des collections de vêtements et d'accessoires par partition du corpus initial sur Open Refine
 Un première partition du corpus a donc été réalisé, afin d'isoler les notices d'oeuvres décrivant des vêtements et des accessoires vestimentaires.
-Le choix retenu a été de s'appuyer sur la colonne "Domaine", en raison de la présence d'une nomenclature partagée par le milieu muséal français sur les noms de domaines des oeuvres. Le mot-clé "Costume" a alors permis de restreindre les notices au sujet de notre projet: les collections vestimentaires. Ci-joint la version du fichier qui ne contient que les notices d'objets vestimentaires ou reliés au domaine vestimentaire. En effet, le champ sur le domaine de l'oeuvre étant multivalué, cette stratégie de récupération de la thématique "Vêtements" moissonne également des oeuvres qui ne sont formellement des vêtements ou des accessoires de vêtements. [Ci-joint les traitements effectués sur OpenRefine pour parvenir à la version de la Base Joconde qui ne contient que les oeuvres considérées comme relevant de la thématique "Costumes"](https://github.com/renaNant/dataviz_Nant/blob/main/BaseJoconde_Costumes_Traitements.json). 
+Le choix retenu a été de s'appuyer sur la colonne "Domaine", en raison de la présence d'une nomenclature partagée par le milieu muséal français sur les noms de domaines des oeuvres. Le mot-clé "Costume" a alors permis de restreindre les notices au sujet de notre projet: les collections vestimentaires. Ci-joint la version du fichier qui ne contient que les notices d'objets vestimentaires ou reliés au domaine vestimentaire. En effet, le champ sur le domaine de l'oeuvre étant multivalué, cette stratégie de récupération de la thématique "Vêtements" moissonne également des oeuvres qui ne sont formellement des vêtements ou des accessoires de vêtements. 
+Voici le lien vers le fichier des [traitements effectués sur OpenRefine pour parvenir à la version de la Base Joconde qui ne contient que les oeuvres considérées comme relevant de la thématique "Costumes"](https://github.com/renaNant/dataviz_Nant/blob/main/BaseJoconde_Costumes_Traitements.json). 
+Voici le lien de téléchargement du fichier de la [section Costumes de la base de données Joconde, fichier d'où proviennent les partitions utilisées pour les visualisation de ce projet](https://we.tl/t-u1gp2b1CfK). 
 
 Ensuite, à partir de cette section Costumes extrait de la Base Joconde, il a été choisi de réaliser plusieurs types de partition du fichier afin d''explorer différents axes d'étude des collections vestimentaires des musées de France et de parvenir à l'objectif final de datavisualisation. 
-
 
 ## Panorama des collections rattachées au domaine Vêtements et Accessoires conservées dans les musées français 
 
 En utilisant cette section Costumes de la base Joconde, explorons les principales tendances à l'oeuvre dans les collections rattachées au domaine vestimentaire et conservées en France. 
 
 Quelle est la répartition et la proportion des oeuvres rattachées au domaine vestimentaire en fonction des régions, des départements et des villes de France? 
-*Insérer sunburst Flourish*
+<iframe src='https://flo.uri.sh/visualisation/16640918/embed' title='Interactive or visual content' class='flourish-embed-iframe' frameborder='0' scrolling='no' style='width:100%;height:600px;' sandbox='allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation'></iframe><div style='width:100%!;margin-top:4px!important;text-align:right!important;'><a class='flourish-credit' href='https://public.flourish.studio/visualisation/16640918/?utm_source=embed&utm_campaign=visualisation/16640918' target='_top' style='text-decoration:none!important'><img alt='Made with Flourish' src='https://public.flourish.studio/resources/made_with_flourish.svg' style='width:105px!important;height:16px!important;border:none!important;margin:0!important;'> </a></div>
 
+Ce sunburst permet de réperer la forte concentration de ce type d'objets dans certaine régions de France, dans les Hauts-de-France, en Île de France et en Auvergne. 
 
 ## Partition chronologique: les collections de vêtements et d'accessoires du XIXe siècle 
 Un premier axe de visualisation a été de se focaliser sur les objets vestimentaires datés du XIXe siècle, afin de cartographier des sources pour l'histoire du vêtement à cette période. 
@@ -38,6 +40,7 @@ Afin de réaliser cette partition chronologique, un traitement important des val
 
 <iframe width="100%" height="300px" frameborder="0" allowfullscreen allow="geolocation" src="//umap.openstreetmap.fr/fr/map/carte-des-collections-des-vetements-et-accessoires_1015858?scaleControl=true&miniMap=false&scrollWheelZoom=true&zoomControl=true&editMode=disabled&moreControl=false&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=none&captionBar=false&captionMenus=true"></iframe><p><a href="//umap.openstreetmap.fr/fr/map/carte-des-collections-des-vetements-et-accessoires_1015858?scaleControl=true&miniMap=false&scrollWheelZoom=true&zoomControl=true&editMode=disabled&moreControl=false&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=none&captionBar=false&captionMenus=true">Voir en plein écran</a></p>
 _Carte des collections des vêtements et accessoires du XIXe siècle conservées en France_
+Pour cette carte, voici le lien vers le [fichier utilisé](https://github.com/renaNant/dataviz_Nant/blob/main/BaseJoconde-Costumes-19e-20e.csv). 
 
 A côté des lieux de conservation des objets, leur datation est également cruciale dans un objectif de recherche historique sur le XIXe siècle. C'est pourquoi nous avons tenté d'étudier la répartition chronologique des dates de création tout au long du siècle. 
 
@@ -52,13 +55,15 @@ Suite à ce premier aperçu général de la répartition sur l'ensemble du terri
 D'une part, Paris abrite deux institutions dotées des plus grandes collections de mode et de textile du monde, avec le Musée des Arts Décoratifs et le Palais Galliera. De plus, à côté de deux géants, il serait intéressant d'étudier si d'autres institutions muséales parisiennes abritent également des objets vestimentaires. 
 
 Où sont conservés les collections vestimentaires à Paris? 
-
+_*insérer carte_
 
 
 Ici, nous avons choisi de visualiser la proportion d'objets vestimentaires par type d'usage. 
 
 <iframe title="Répartition par type d'objet des costumes et d'accessoires du costume conservés dans les musées parisiens " aria-label="Tracé de points" id="datawrapper-chart-CB5gC" src="https://datawrapper.dwcdn.net/CB5gC/2/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="386" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data["datawrapper-height"][t]+"px";e[r].style.height=i}}}))}();
 </script>
+
+Enfin, à partir de valeurs réconcilées avec Wikidata dans OpenRefine, il est possible de comparer la fréquentation des musées parisiens conservant des collections vestimentaires. 
 
 
 
