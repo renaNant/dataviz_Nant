@@ -69,6 +69,7 @@ A côté des lieux de conservation des objets, leur datation est également cruc
 
 <iframe title="Répartition chronologique des oeuvres du corpus &quot;XIXe siècle&quot; par date de création estimée" aria-label="Nuage de points" id="datawrapper-chart-Thide" src="https://datawrapper.dwcdn.net/Thide/2/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="720" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data["datawrapper-height"][t]+"px";e[r].style.height=i}}}))}();
 </script>
+
 Important: 1830 valeurs n'étaient pas renseignées pour la colonne Periode_de_creation à partir de laquelle les données sur les dates de création des oeuvres ont été extraites. Cette visualisation est donc très partielle. 
 
 Cependant, il permet de rendre compte de la représentativité de toutes les décennies du XIXe siècle dans le corpus, avec une distribution des oeuvres tout au long de la période. Une certaine concentration des oeuvres entre 1820 et 1890 serait également notable. Ces observations pourraient être stratégiques pour des problématiques de recherche propres aux transformations de l'objet vestimentaire au cours du XIXe siècle, pivot dans l'histoire du vêtement. 
