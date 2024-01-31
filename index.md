@@ -23,6 +23,15 @@ Le choix retenu a été de s'appuyer sur la colonne "Domaine", en raison de la p
 
 Ensuite, à partir de cette section Costumes extrait de la Base Joconde, il a été choisi de réaliser plusieurs types de partition du fichier afin d''explorer différents axes d'étude des collections vestimentaires des musées de France et de parvenir à l'objectif final de datavisualisation. 
 
+
+## Panorama des collections rattachées au domaine Vêtements et Accessoires conservées dans les musées français 
+
+En utilisant cette section Costumes de la base Joconde, explorons les principales tendances à l'oeuvre dans les collections rattachées au domaine vestimentaire et conservées en France. 
+
+Quelle est la répartition et la proportion des oeuvres rattachées au domaine vestimentaire en fonction des régions, des départements et des villes de France? 
+*Insérer sunburst Flourish*
+
+
 ## Partition chronologique: les collections de vêtements et d'accessoires du XIXe siècle 
 Un premier axe de visualisation a été de se focaliser sur les objets vestimentaires datés du XIXe siècle, afin de cartographier des sources pour l'histoire du vêtement à cette période. 
 Afin de réaliser cette partition chronologique, un traitement important des valeurs de datation saisies dans le jeu de données a été nécessaire, face à la grande hétérogénéité des notations de dates. La représentativité chronologique de ce corpus vis-à-vis des données initiales est donc à questionner. 
@@ -34,12 +43,15 @@ A côté des lieux de conservation des objets, leur datation est également cruc
 
 <iframe title="Répartition chronologique des oeuvres du corpus &quot;XIXe siècle&quot; par date de création estimée" aria-label="Nuage de points" id="datawrapper-chart-Thide" src="https://datawrapper.dwcdn.net/Thide/2/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="720" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data["datawrapper-height"][t]+"px";e[r].style.height=i}}}))}();
 </script>
+Important: 1830 valeurs n'étaient pas renseignées pour la colonne Periode_de_creation à partir de laquelle les données sur les dates de création des oeuvres ont été extraites. Cette visualisation est donc très partielle. 
 Il est nécessaire de rappeler ici que la base Joconde comporte plusieurs colonnes relatives à la datation de l'oeuvre, dont la saisie varie en fonction de plusieurs facteurs: type d'objet, pratique de saisies des musées, notation de la date en période temporelle. Le traitement important des dates rend possible les valeurs extrêmes hors du XIXe siècle visibles sur le graphique. 
 
 
 ## Partition géographique: focus sur les collections vestimentaires des musées parisiens 
 Suite à ce premier aperçu général de la répartition sur l'ensemble du territoire français hexagonal des collections vestimentaires, il a été choisi de spécialiser l'étude à l'échelle des musées de Paris. 
 D'une part, Paris abrite deux institutions dotées des plus grandes collections de mode et de textile du monde, avec le Musée des Arts Décoratifs et le Palais Galliera. De plus, à côté de deux géants, il serait intéressant d'étudier si d'autres institutions muséales parisiennes abritent également des objets vestimentaires. 
+
+Où sont conservés les collections vestimentaires à Paris? 
 
 
 
