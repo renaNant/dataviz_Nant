@@ -6,7 +6,7 @@ A partir des méthodes et outils de traitement et de visualisation des données 
 
 ## La base Joconde: éléments de contextualisation 
 La base de données Joconde est un catalogue collectif de notices d'oeuvres, alimentée par les musées prenant part au projet. Tout musée situé en France peut y contribuer avec les notices de ses collections, dès lors qu'il est accrédité par l'appelation "Musée de France". La base de données est en _open data_, accessible sur la plateforme data.culture.gouv.fr sous licence Ouverte v2.0. <br>
-Lien d'accès au jeu de données: https://data.culture.gouv.fr/explore/dataset/base-joconde-extrait/information/?disjunctive.departement 
+[Lien d'accès au jeu de données] (https://data.culture.gouv.fr/explore/dataset/base-joconde-extrait/information/?disjunctive.departement) 
 
 
 ## Tisser un jeu de données sur mesure: le traitement de la Base Joconde 
