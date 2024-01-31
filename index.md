@@ -32,7 +32,7 @@ En utilisant cette section Costumes de la base Joconde, explorons les principale
 Quelle est la répartition et la proportion des oeuvres rattachées au domaine vestimentaire en fonction des régions, des départements et des villes de France? 
 <iframe src='https://flo.uri.sh/visualisation/16640918/embed' title='Interactive or visual content' class='flourish-embed-iframe' frameborder='0' scrolling='no' style='width:100%;height:600px;' sandbox='allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation'></iframe><div style='width:100%!;margin-top:4px!important;text-align:right!important;'><a class='flourish-credit' href='https://public.flourish.studio/visualisation/16640918/?utm_source=embed&utm_campaign=visualisation/16640918' target='_top' style='text-decoration:none!important'><img alt='Made with Flourish' src='https://public.flourish.studio/resources/made_with_flourish.svg' style='width:105px!important;height:16px!important;border:none!important;margin:0!important;'> </a></div>
 
-Ce sunburst permet de réperer la forte concentration de ce type d'objets dans certaine régions de France, dans les Hauts-de-France, en Île de France et en Auvergne. 
+Ce sunburst permet de réperer la forte concentration de ce type d'objets dans certaine régions de France, dans les Hauts-de-France, en Île de France et en Auvergne-Rhône Alpes. 
 
 ## Partition chronologique: les collections de vêtements et d'accessoires du XIXe siècle 
 Un premier axe de visualisation a été de se focaliser sur les objets vestimentaires datés du XIXe siècle, afin de cartographier des sources pour l'histoire du vêtement à cette période. 
@@ -64,6 +64,9 @@ Ici, nous avons choisi de visualiser la proportion d'objets vestimentaires par t
 </script>
 
 Enfin, à partir de valeurs réconcilées avec Wikidata dans OpenRefine, il est possible de comparer la fréquentation des musées parisiens conservant des collections vestimentaires. 
+
+<iframe src='https://flo.uri.sh/visualisation/16641837/embed' title='Interactive or visual content' class='flourish-embed-iframe' frameborder='0' scrolling='no' style='width:100%;height:600px;' sandbox='allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation'></iframe><div style='width:100%!;margin-top:4px!important;text-align:right!important;'><a class='flourish-credit' href='https://public.flourish.studio/visualisation/16641837/?utm_source=embed&utm_campaign=visualisation/16641837' target='_top' style='text-decoration:none!important'><img alt='Made with Flourish' src='https://public.flourish.studio/resources/made_with_flourish.svg' style='width:105px!important;height:16px!important;border:none!important;margin:0!important;'> </a></div>
+
 
 
 
