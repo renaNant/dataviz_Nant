@@ -63,6 +63,7 @@ Afin de réaliser cette partition chronologique, un traitement important des val
 
 <iframe width="100%" height="300px" frameborder="0" allowfullscreen allow="geolocation" src="//umap.openstreetmap.fr/fr/map/carte-des-collections-des-vetements-et-accessoires_1015858?scaleControl=true&miniMap=false&scrollWheelZoom=true&zoomControl=true&editMode=disabled&moreControl=false&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=none&captionBar=false&captionMenus=true"></iframe><p><a href="//umap.openstreetmap.fr/fr/map/carte-des-collections-des-vetements-et-accessoires_1015858?scaleControl=true&miniMap=false&scrollWheelZoom=true&zoomControl=true&editMode=disabled&moreControl=false&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=none&captionBar=false&captionMenus=true">Voir en plein écran</a></p>
 _Carte des collections des vêtements et accessoires du XIXe siècle conservées en France_
+
 Pour cette carte, voici le lien vers le [fichier utilisé](https://github.com/renaNant/dataviz_Nant/blob/main/BaseJoconde-Costumes-19e-20e.csv). 
 
 A côté des lieux de conservation des objets, leur datation est également cruciale dans un objectif de recherche historique sur le XIXe siècle. C'est pourquoi nous avons tenté d'étudier la répartition chronologique des dates de création tout au long du siècle. 
