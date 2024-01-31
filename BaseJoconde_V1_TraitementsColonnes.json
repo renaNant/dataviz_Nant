@@ -1,0 +1,657 @@
+[
+  {
+    "op": "core/column-reorder",
+    "columnNames": [
+      "﻿Reference",
+      "Denomination",
+      "Appellation",
+      "Description",
+      "Sujet_Represente",
+      "Epoque",
+      "Ancien_depot",
+      "Ancienne_appartenance",
+      "Ancienne_attribution",
+      "Auteur",
+      "Bibliographie",
+      "Commentaires",
+      "Presence_image",
+      "Date_d_acquisition",
+      "Date_de_depot",
+      "Decouverte_collecte",
+      "Lieu_de_depot",
+      "Mesures",
+      "Date_de_mise_a_jour",
+      "Date_creation",
+      "Domaine",
+      "Region",
+      "Departement",
+      "Date_sujet_represente",
+      "Ecole_pays",
+      "Exposition",
+      "Genese",
+      "Geographie_historique",
+      "Inscription",
+      "Numero_inventaire",
+      "Appellation_Musee_de_France",
+      "Lien_base_Arcade",
+      "Lieu_de_creation_utilisation",
+      "Localisation",
+      "Lien_Video",
+      "MANQUANT",
+      "MANQUANT_COM",
+      "Millesime_de_creation",
+      "Millesime_d_utilisation",
+      "Code_Museofile",
+      "Nom_officiel_musee",
+      "Genre",
+      "Onomastique",
+      "Precisions_sur_l_auteur",
+      "Precisions_decouverte_collecte",
+      "Periode_de_l_original_copie",
+      "Periode_de_creation",
+      "Periode_d_utilisation",
+      "Precisions_inscriptions",
+      "Precisions_lieux_creations",
+      "Precisions_sujets_representes",
+      "Precisions_utilisation",
+      "References_Memoires",
+      "References_Merimee",
+      "Reference_MAJ",
+      "References_Palissy",
+      "Lien_INHA",
+      "Source_de_la_representation",
+      "Statut_juridique",
+      "Materiaux_techniques",
+      "Titre",
+      "Utilisation",
+      "Ville",
+      "Lien_site_associe",
+      "coordonnees"
+    ],
+    "description": "Reorder columns"
+  },
+  {
+    "op": "core/column-move",
+    "columnName": "Domaine",
+    "index": 0,
+    "description": "Move column Domaine to position 0"
+  },
+  {
+    "op": "core/column-move",
+    "columnName": "﻿Reference",
+    "index": 0,
+    "description": "Move column ﻿Reference to position 0"
+  },
+  {
+    "op": "core/column-reorder",
+    "columnNames": [
+      "﻿Reference",
+      "Nom_officiel_musee",
+      "Domaine",
+      "Denomination",
+      "Appellation",
+      "Description",
+      "Sujet_Represente",
+      "Epoque",
+      "Ancien_depot",
+      "Ancienne_appartenance",
+      "Ancienne_attribution",
+      "Auteur",
+      "Bibliographie",
+      "Commentaires",
+      "Presence_image",
+      "Date_d_acquisition",
+      "Date_de_depot",
+      "Decouverte_collecte",
+      "Lieu_de_depot",
+      "Mesures",
+      "Date_de_mise_a_jour",
+      "Date_creation",
+      "Region",
+      "Departement",
+      "Date_sujet_represente",
+      "Ecole_pays",
+      "Exposition",
+      "Genese",
+      "Geographie_historique",
+      "Inscription",
+      "Numero_inventaire",
+      "Lieu_de_creation_utilisation",
+      "Localisation",
+      "Millesime_de_creation",
+      "Millesime_d_utilisation",
+      "Code_Museofile",
+      "Genre",
+      "Onomastique",
+      "Precisions_sur_l_auteur",
+      "Precisions_decouverte_collecte",
+      "Periode_de_l_original_copie",
+      "Periode_de_creation",
+      "Periode_d_utilisation",
+      "Precisions_inscriptions",
+      "Precisions_lieux_creations",
+      "Precisions_sujets_representes",
+      "Precisions_utilisation",
+      "References_Memoires",
+      "References_Merimee",
+      "Reference_MAJ",
+      "References_Palissy",
+      "Lien_INHA",
+      "Source_de_la_representation",
+      "Statut_juridique",
+      "Materiaux_techniques",
+      "Titre",
+      "Utilisation",
+      "Ville",
+      "Lien_site_associe",
+      "coordonnees"
+    ],
+    "description": "Reorder columns"
+  },
+  {
+    "op": "core/row-reorder",
+    "mode": "row-based",
+    "sorting": {
+      "criteria": [
+        {
+          "valueType": "number",
+          "column": "﻿Reference",
+          "blankPosition": 2,
+          "errorPosition": 1,
+          "reverse": false
+        }
+      ]
+    },
+    "description": "Reorder rows"
+  },
+  {
+    "op": "core/row-reorder",
+    "mode": "row-based",
+    "sorting": {
+      "criteria": [
+        {
+          "valueType": "string",
+          "column": "Nom_officiel_musee",
+          "blankPosition": 2,
+          "errorPosition": 1,
+          "reverse": false,
+          "caseSensitive": false
+        }
+      ]
+    },
+    "description": "Reorder rows"
+  },
+  {
+    "op": "core/column-split",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Nom_officiel_musee",
+          "expression": "value",
+          "columnName": "Nom_officiel_musee",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "musée des arts décoratifs (Union centrale des arts décoratifs)",
+                "l": "musée des arts décoratifs (Union centrale des arts décoratifs)"
+              }
+            },
+            {
+              "v": {
+                "v": "Palais Galliera, musée de la mode de la ville de Paris",
+                "l": "Palais Galliera, musée de la mode de la ville de Paris"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Domaine",
+    "guessCellType": false,
+    "removeOriginalColumn": false,
+    "mode": "separator",
+    "separator": ",",
+    "regex": false,
+    "maxColumns": 0,
+    "description": "Split column Domaine by separator"
+  },
+  {
+    "op": "core/column-reorder",
+    "columnNames": [
+      "Numero_inventaire",
+      "Nom_officiel_musee",
+      "Denomination",
+      "Appellation",
+      "Auteur",
+      "Millesime_de_creation",
+      "Epoque",
+      "Description",
+      "Sujet_Represente",
+      "Mesures",
+      "Domaine",
+      "Domaine 1",
+      "Domaine 2",
+      "Domaine 3",
+      "Domaine 4",
+      "Domaine 5",
+      "Domaine 6",
+      "Domaine 7",
+      "Domaine 8",
+      "Domaine 9",
+      "Domaine 10",
+      "Ancien_depot",
+      "Ancienne_appartenance",
+      "Ancienne_attribution",
+      "Bibliographie",
+      "Commentaires",
+      "Presence_image",
+      "Date_d_acquisition",
+      "Date_de_depot",
+      "Decouverte_collecte",
+      "Lieu_de_depot",
+      "Date_de_mise_a_jour",
+      "Date_creation",
+      "Region",
+      "Departement",
+      "Date_sujet_represente",
+      "Ecole_pays",
+      "Exposition",
+      "Genese",
+      "Geographie_historique",
+      "Inscription",
+      "Lieu_de_creation_utilisation",
+      "Localisation",
+      "Millesime_d_utilisation",
+      "Code_Museofile",
+      "Genre",
+      "Onomastique",
+      "Precisions_sur_l_auteur",
+      "Precisions_decouverte_collecte",
+      "Periode_de_l_original_copie",
+      "Periode_de_creation",
+      "Periode_d_utilisation",
+      "Precisions_inscriptions",
+      "Precisions_lieux_creations",
+      "Precisions_sujets_representes",
+      "Precisions_utilisation",
+      "References_Memoires",
+      "References_Merimee",
+      "Reference_MAJ",
+      "References_Palissy",
+      "Lien_INHA",
+      "Source_de_la_representation",
+      "Statut_juridique",
+      "Materiaux_techniques",
+      "Titre",
+      "Utilisation",
+      "Ville",
+      "Lien_site_associe",
+      "coordonnees"
+    ],
+    "description": "Reorder columns"
+  },
+  {
+    "op": "core/row-reorder",
+    "mode": "row-based",
+    "sorting": {
+      "criteria": [
+        {
+          "valueType": "string",
+          "column": "Denomination",
+          "blankPosition": 2,
+          "errorPosition": 1,
+          "reverse": false,
+          "caseSensitive": false
+        },
+        {
+          "valueType": "string",
+          "column": "Appellation",
+          "blankPosition": 2,
+          "errorPosition": 1,
+          "reverse": false,
+          "caseSensitive": false
+        }
+      ]
+    },
+    "description": "Reorder rows"
+  },
+  {
+    "op": "core/row-reorder",
+    "mode": "row-based",
+    "sorting": {
+      "criteria": [
+        {
+          "valueType": "string",
+          "column": "Appellation",
+          "blankPosition": 2,
+          "errorPosition": 1,
+          "reverse": false,
+          "caseSensitive": false
+        }
+      ]
+    },
+    "description": "Reorder rows"
+  },
+  {
+    "op": "core/row-reorder",
+    "mode": "row-based",
+    "sorting": {
+      "criteria": [
+        {
+          "valueType": "string",
+          "column": "Millesime_de_creation",
+          "blankPosition": 2,
+          "errorPosition": 1,
+          "reverse": false,
+          "caseSensitive": false
+        }
+      ]
+    },
+    "description": "Reorder rows"
+  },
+  {
+    "op": "core/column-reorder",
+    "columnNames": [
+      "Numero_inventaire",
+      "Nom_officiel_musee",
+      "Denomination",
+      "Appellation",
+      "Millesime_de_creation",
+      "Epoque",
+      "Auteur",
+      "Description",
+      "Sujet_Represente",
+      "Mesures",
+      "Domaine",
+      "Domaine 1",
+      "Domaine 2",
+      "Domaine 3",
+      "Domaine 4",
+      "Domaine 5",
+      "Domaine 6",
+      "Domaine 7",
+      "Domaine 8",
+      "Domaine 9",
+      "Domaine 10",
+      "Ancien_depot",
+      "Ancienne_appartenance",
+      "Ancienne_attribution",
+      "Bibliographie",
+      "Commentaires",
+      "Presence_image",
+      "Date_d_acquisition",
+      "Date_de_depot",
+      "Decouverte_collecte",
+      "Lieu_de_depot",
+      "Date_de_mise_a_jour",
+      "Date_creation",
+      "Region",
+      "Departement",
+      "Date_sujet_represente",
+      "Ecole_pays",
+      "Exposition",
+      "Genese",
+      "Geographie_historique",
+      "Inscription",
+      "Lieu_de_creation_utilisation",
+      "Localisation",
+      "Millesime_d_utilisation",
+      "Code_Museofile",
+      "Genre",
+      "Onomastique",
+      "Precisions_sur_l_auteur",
+      "Precisions_decouverte_collecte",
+      "Periode_de_l_original_copie",
+      "Periode_de_creation",
+      "Periode_d_utilisation",
+      "Precisions_inscriptions",
+      "Precisions_lieux_creations",
+      "Precisions_sujets_representes",
+      "Precisions_utilisation",
+      "References_Memoires",
+      "References_Merimee",
+      "Reference_MAJ",
+      "References_Palissy",
+      "Lien_INHA",
+      "Source_de_la_representation",
+      "Statut_juridique",
+      "Materiaux_techniques",
+      "Titre",
+      "Utilisation",
+      "Ville",
+      "Lien_site_associe",
+      "coordonnees"
+    ],
+    "description": "Reorder columns"
+  },
+  {
+    "op": "core/column-move",
+    "columnName": "Nom_officiel_musee",
+    "index": 0,
+    "description": "Move column Nom_officiel_musee to position 0"
+  },
+  {
+    "op": "core/column-split",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Nom_officiel_musee",
+          "expression": "value",
+          "columnName": "Nom_officiel_musee",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Palais Galliera, musée de la mode de la ville de Paris",
+                "l": "Palais Galliera, musée de la mode de la ville de Paris"
+              }
+            },
+            {
+              "v": {
+                "v": "musée des arts décoratifs (Union centrale des arts décoratifs)",
+                "l": "musée des arts décoratifs (Union centrale des arts décoratifs)"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "Domaine 1",
+          "expression": "value",
+          "columnName": "Domaine 1",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "costume - accessoires du costume",
+                "l": "costume - accessoires du costume"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Millesime_de_creation",
+    "guessCellType": false,
+    "removeOriginalColumn": false,
+    "mode": "separator",
+    "separator": ",",
+    "regex": false,
+    "maxColumns": 0,
+    "description": "Split column Millesime_de_creation by separator"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Millesime_de_creation",
+    "newColumnName": "Millesime_de_creation_initial",
+    "description": "Rename column Millesime_de_creation to Millesime_de_creation_initial"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Nom_officiel_musee",
+          "expression": "value",
+          "columnName": "Nom_officiel_musee",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Palais Galliera, musée de la mode de la ville de Paris",
+                "l": "Palais Galliera, musée de la mode de la ville de Paris"
+              }
+            },
+            {
+              "v": {
+                "v": "musée des arts décoratifs (Union centrale des arts décoratifs)",
+                "l": "musée des arts décoratifs (Union centrale des arts décoratifs)"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "Domaine 1",
+          "expression": "value",
+          "columnName": "Domaine 1",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "costume - accessoires du costume",
+                "l": "costume - accessoires du costume"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Millesime_de_creation 1",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Millesime_de_creation 1 using expression value.trim()"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Lien_site_associe",
+    "description": "Remove column Lien_site_associe"
+  },
+  {
+    "op": "core/column-move",
+    "columnName": "Ville",
+    "index": 0,
+    "description": "Move column Ville to position 0"
+  },
+  {
+    "op": "core/column-reorder",
+    "columnNames": [
+      "Localisation",
+      "Nom_officiel_musee",
+      "Code_Museofile",
+      "Region",
+      "Departement",
+      "Ville",
+      "Numero_inventaire",
+      "Domaine",
+      "Denomination",
+      "Appellation",
+      "Utilisation",
+      "Precisions_utilisation",
+      "Description",
+      "Materiaux_techniques",
+      "Inscription",
+      "Precisions_inscriptions",
+      "Auteur",
+      "Precisions_sur_l_auteur",
+      "Sujet_Represente",
+      "Precisions_sujets_representes",
+      "Mesures",
+      "Titre",
+      "Periode_de_creation",
+      "Millesime_de_creation_initial",
+      "Millesime_de_creation 1",
+      "Millesime_de_creation 2",
+      "Epoque",
+      "Ancienne_appartenance",
+      "Ancienne_attribution",
+      "Bibliographie",
+      "Commentaires",
+      "Presence_image",
+      "Date_d_acquisition",
+      "Exposition",
+      "coordonnees"
+    ],
+    "description": "Reorder columns"
+  },
+  {
+    "op": "core/row-reorder",
+    "mode": "row-based",
+    "sorting": {
+      "criteria": [
+        {
+          "valueType": "string",
+          "column": "Periode_de_creation",
+          "blankPosition": 2,
+          "errorPosition": 1,
+          "reverse": false,
+          "caseSensitive": false
+        },
+        {
+          "valueType": "date",
+          "column": "Millesime_de_creation_initial",
+          "blankPosition": 2,
+          "errorPosition": 1,
+          "reverse": false
+        }
+      ]
+    },
+    "description": "Reorder rows"
+  },
+  {
+    "op": "core/row-reorder",
+    "mode": "row-based",
+    "sorting": {
+      "criteria": [
+        {
+          "valueType": "string",
+          "column": "Localisation",
+          "blankPosition": 2,
+          "errorPosition": 1,
+          "reverse": false,
+          "caseSensitive": false
+        }
+      ]
+    },
+    "description": "Reorder rows"
+  }
+]
